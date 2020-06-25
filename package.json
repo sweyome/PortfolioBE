@@ -1,0 +1,29 @@
+{
+  "name": "PortfolioBE",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sweyome/PortfolioBE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sweyome/PortfolioBE/issues"
+  },
+  "homepage": "https://github.com/sweyome/PortfolioBE#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1"
+  }
+}
