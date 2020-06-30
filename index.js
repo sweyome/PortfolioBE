@@ -1,10 +1,10 @@
 const server = require('./server.js');
-const port = 5000
 
-server.listen(5000, () =>{
-    console.log(`server listening on local host port ${port}`)
-})
+const PORT = 5000;
 
+server.listen(PORT, () => {
+  console.log(`Listening on port ${PORT}...`);
+});
 
 
 

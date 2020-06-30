@@ -4,7 +4,7 @@ const contactRouter = require('./Api/router');
 
 
 const server = express();
-server.use(express.json);
+server.use(express.json());
 server.use(cors())
 server.use('/api/contacts', contactRouter);
 
