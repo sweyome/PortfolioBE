@@ -18,6 +18,12 @@ router.post('/', (req, res) => {
   const userData = req.body;
 //! resolve to newly create users
   db.add(userData)
+  .then(userData => {
+    res.status(201).json(userData);
+  })
+  .catch(err => {
+    res.status(500).json({ message: 'Failed to create new user' });
+  });
 });
 //! remove 
 router.delete('/:id', (req, res) => {
