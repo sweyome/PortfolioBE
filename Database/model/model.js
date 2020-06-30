@@ -11,7 +11,7 @@ function find(){
 }
 
 function add(user){
-return db('contact').insert(userData)
+return db('contact').insert(user)
 }
 // resolve to a count
 function remove(id){
